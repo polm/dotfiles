@@ -1,0 +1,17 @@
+[user]
+	name = Paul O'Leary McCann
+	email = polm@dampfkraft.com
+[core]
+	excludesfile = /home/23/.gitignore
+[alias] 
+        st = status
+        stat = status
+        tree = log --graph --oneline --all
+[branch]
+        autosetuprebase = always
+        mergeoptions = --no-ff
+[branch "master"]
+        autosetuprebase = always
+        mergeoptions = --no-ff
+[push]
+	default = matching
